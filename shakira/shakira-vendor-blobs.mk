@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/shakira/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/shakira/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/semc/shakira/proprietary/lib/libuim.so:system/lib/libuim.so \
-    vendor/semc/shakira/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/semc/shakira/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/shakira/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/semc/shakira/proprietary/etc/firmware/fm_rx_init_1273.1.bts:system/etc/firmware/fm_rx_init_1273.1.bts \
@@ -80,21 +79,18 @@ PRODUCT_COPY_FILES += \
     vendor/semc/shakira/proprietary/lib/libsystemconnector/libuinputdevicejni.so:system/lib/libsystemconnector/libuinputdevicejni.so \
     vendor/semc/shakira/proprietary/lib/libsystemconnector_hal_jni.so:system/lib/libsystemconnector_hal_jni.so \
     vendor/semc/shakira/proprietary/lib/libcamera.so:system/lib/libcamera.so \
-    vendor/semc/shakira/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
     vendor/semc/shakira/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/shakira/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/semc/shakira/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/shakira/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
-    vendor/semc/shakira/proprietary/lib/libfacedetect.so:system/lib/libfacedetect.so \
     vendor/semc/shakira/proprietary/lib/libvdmfumo.so:system/lib/libvdmfumo.so \
-    vendor/semc/shakira/proprietary/lib/libfacedetectjnitest.so:system/lib/libfacedetectjnitest.so \
     vendor/semc/shakira/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
     vendor/semc/shakira/proprietary/lib/libopencore_common.so:system/lib/libopencore_common.so \
     vendor/semc/shakira/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/semc/shakira/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
     vendor/semc/shakira/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/semc/shakira/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
-    vendor/semc/shakira/proprietary/lib/libOmx-Core.so:system/lib/libOmx-Core.so \
+    vendor/semc/shakira/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/semc/shakira/proprietary/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
     vendor/semc/shakira/proprietary/lib/libOmxQcelpDec.so:system/lib/libOmxQcelpDec.so \
     vendor/semc/shakira/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
